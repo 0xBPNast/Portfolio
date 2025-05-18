@@ -1,7 +1,7 @@
 # 👋 Hi, I'm Bradley
 
-> 📊 Data Scientist | 🏗 Data Engineer | 🤖 Machine Learning Enthusiast  
-> Welcome to my portfolio — a curated collection of real-world projects and solutions I've built using data.
+📊 Data Scientist | 🏗 Data Engineer | 🤖 Machine Learning Enthusiast<br>
+Welcome to my portfolio — a curated collection of real-world projects and solutions I've built using data.
 
 ---
 
@@ -14,7 +14,7 @@ Actively seeking to pivot my career to everything data!
 - 🔍 Experienced in feature engineering, model selection & model tuning (although this is pretty specific to conventional engineering applications still!)
 - 🧰 Proficient in transforming messy data into actionable insights, especially when centering these problems around business
 
-📍 Based in JHB, South Africa 
+📍 Based in JHB, South Africa<br>
 🚀 Open to roles in data science, ML engineering, or data platform development (remote or on-site)
 
 ---
@@ -23,38 +23,41 @@ Actively seeking to pivot my career to everything data!
 
 | Project | Description | Tech Stack |
 |--------|-------------|------------|
-| **Uni Work** | A bit of everything from my time at Uni, most notable, a deep learning 1D-CNN I built for gearbox fault detection & classification | `Python`, `scikit-learn`, 'TensorFlow', 'pandas', SciPy, SymPy |
+| **Uni Work** | A bit of everything from my time at Uni, most notable, a deep learning 1D-CNN I built for gearbox fault detection & classification | `Python`, `scikit-learn`, `TensorFlow`, `pandas`, `NumPy`, `SciPy`, `SymPy` |
 
 ---
 
 ## 🧰 Skills & Tools
 
-**Languages:** Python, C++
-**ML & DS Libraries:** scikit-learn, TensorFlow, PyTorch, pandas, NumPy  
-**Data Engineering:** Apache Spark
-**Databases:** PostgreSQL, MongoDB, SMMS 
-**Cloud & DevOps:** AWS, Docker
-**Visualization:** Matplotlib, Seaborn, Plotly, Power BI
+**Languages:** Python, C++<br>
+**ML & DS Libraries:** scikit-learn, TensorFlow, PyTorch, pandas, NumPy<br>
+**Data Engineering:** Apache Spark<br>
+**Databases:** PostgreSQL, MongoDB, SMMS<br>
+**Cloud & DevOps:** AWS, Docker<br>
+**Visualization:** Matplotlib, Seaborn, Plotly, Power BI<br>
+
+---
+
+## 📬 Contact
+📧 Email: In Progress<br>
+🌐 Website: In Progress<br>
+🐙 GitHub: github.com/0xBPNast<br>
+💼 LinkedIn: linkedin.com/in/bpnast<br>
 
 ---
 
 ## 🗃 Repository Structure
-"""
+```
+📦 root/
 ├── projects/
 │   ├── BEngHons/
 │   ├── Kaggle/
-│   ├── Personal/
-│   └── ...
+│   └── Personal/
 ├── resume/
 │   └── bpnast.pdf
 ├── docs/
 │   └── notebooks, reports, writeups
 └── README.md
-"""
----
+```
 
-## 📬 Contact
-📧 Email: In Progress
-🌐 Website: In Progress
-🐙 GitHub: github.com/0xBPNast
-💼 LinkedIn: linkedin.com/in/bpnast
+---
