@@ -39,7 +39,7 @@ Actively seeking to pivot my career to everything data!
 ---
 
 ## 🗃 Repository Structure
-
+"""
 ├── projects/
 │   ├── BEngHons/
 │   ├── Kaggle/
@@ -50,7 +50,7 @@ Actively seeking to pivot my career to everything data!
 ├── docs/
 │   └── notebooks, reports, writeups
 └── README.md
-
+"""
 ---
 
 ## 📬 Contact
