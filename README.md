@@ -1,12 +1,60 @@
-A mashup of various work for my portfolio.
-Some of this work is still in progress and a bit incoherent, I'm actively collating and streamlining!
+# 👋 Hi, I'm Bradley
 
-1. BEngHons
-   Folder containing some scripts specific to:
-   1.1. My potential dissertation topic, whereby the content to date aimed to lay the foundation for future research.
-   1.2. Course content around optimization, machine learning and deep learning.
-   1.3. Course content around signal processing.
+> 📊 Data Scientist | 🏗 Data Engineer | 🤖 Machine Learning Enthusiast  
+> Welcome to my portfolio — a curated collection of real-world projects and solutions I've built using data.
 
-2. Kaggle
+---
 
-3. Personal
+## 🧠 About Me
+
+I’m a Mechanical Engineer with a strong foundation in mathematics, statistics, optimization; passionate about using data to drive insight and innovation.
+Actively seeking to pivot my career to everything data!
+
+- 💡 Skilled in problem solving, always looking for innovative solutions and new ways of thinking
+- 🔍 Experienced in feature engineering, model selection & model tuning (although this is pretty specific to conventional engineering applications still!)
+- 🧰 Proficient in transforming messy data into actionable insights, especially when centering these problems around business
+
+📍 Based in JHB, South Africa 
+🚀 Open to roles in data science, ML engineering, or data platform development (remote or on-site)
+
+---
+
+## 🗂 Portfolio Highlights
+
+| Project | Description | Tech Stack |
+|--------|-------------|------------|
+| **Uni Work** | A bit of everything from my time at Uni, most notable, a deep learning 1D-CNN I built for gearbox fault detection & classification | `Python`, `scikit-learn`, 'TensorFlow', 'pandas', SciPy, SymPy |
+
+---
+
+## 🧰 Skills & Tools
+
+**Languages:** Python, C++
+**ML & DS Libraries:** scikit-learn, TensorFlow, PyTorch, pandas, NumPy  
+**Data Engineering:** Apache Spark
+**Databases:** PostgreSQL, MongoDB, SMMS 
+**Cloud & DevOps:** AWS, Docker
+**Visualization:** Matplotlib, Seaborn, Plotly, Power BI
+
+---
+
+## 🗃 Repository Structure
+
+├── projects/
+│   ├── BEngHons/
+│   ├── Kaggle/
+│   ├── Personal/
+│   └── ...
+├── resume/
+│   └── bpnast.pdf
+├── docs/
+│   └── notebooks, reports, writeups
+└── README.md
+
+---
+
+## 📬 Contact
+📧 Email: In Progress
+🌐 Website: In Progress
+🐙 GitHub: github.com/0xBPNast
+💼 LinkedIn: linkedin.com/in/bpnast
