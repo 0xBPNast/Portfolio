@@ -110,3 +110,5 @@ Kaggle/PredictingOptimalFertilizers_s5e6/backup_test_preds.pkl
 Kaggle/PredictingOptimalFertilizers_s5e6/backup_oof_preds.pkl
 Kaggle/PredictingOptimalFertilizers_s5e6/Ensemble_0.367321_1.csv
 Kaggle/PredictingOptimalFertilizers_s5e6/misc.ipynb
+Kaggle/PredictingOptimalFertilizers_s5e6/submissions/Weighted_Ensemble_Optuna_MAP3_0.367639.csv
+Kaggle/PredictingOptimalFertilizers_s5e6/submissions/WeightedEnsemble_MAP3_0.367639.csv
