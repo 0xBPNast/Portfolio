@@ -103,3 +103,10 @@ K a g g l e / P r e d i c t i n g O p t i m a l F e r t i l i z e r s _ s 5 e 6 
 Kaggle/PredictingOptimalFertilizers_s5e6/oof_pred_probs.pkl
 Kaggle/PredictingOptimalFertilizers_s5e6/test_pred_probs.pkl
 Kaggle/PredictingOptimalFertilizers_s5e6/TabTransform_submission_1.csv
+Kaggle/PredictingOptimalFertilizers_s5e6/tabtransformer_preds.pkl
+Kaggle/PredictingOptimalFertilizers_s5e6/test_preds_full.pkl
+Kaggle/PredictingOptimalFertilizers_s5e6/oof_preds_full.pkl
+Kaggle/PredictingOptimalFertilizers_s5e6/backup_test_preds.pkl
+Kaggle/PredictingOptimalFertilizers_s5e6/backup_oof_preds.pkl
+Kaggle/PredictingOptimalFertilizers_s5e6/Ensemble_0.367321_1.csv
+Kaggle/PredictingOptimalFertilizers_s5e6/misc.ipynb
