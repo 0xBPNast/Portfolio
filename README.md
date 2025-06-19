@@ -24,16 +24,18 @@ Actively seeking to pivot my career to everything data!
 | Project | Description | Tech Stack |
 |--------|-------------|------------|
 | **Uni Work** | A bit of everything from my time at Uni, most notable, a deep learning 1D-CNN I built for gearbox fault detection & classification | `Python`, `scikit-learn`, `TensorFlow`, `pandas`, `NumPy`, `SciPy`, `SymPy` |
+| **Kaggle** | A mixture of formal and playground competition work - some historical works still needs to be uploaded :3 |
+| **Personal** | Placeholder! |
 
 ---
 
 ## 🧰 Skills & Tools
 
 **Languages:** Python, C++<br>
-**ML & DS Libraries:** scikit-learn, TensorFlow, PyTorch, pandas, NumPy<br>
+**ML & DS Libraries:** scikit-learn, TensorFlow, PyTorch, pandas, NumPy, SciPy<br>
 **Data Engineering:** Apache Spark<br>
-**Databases:** PostgreSQL, MongoDB, SMMS<br>
-**Cloud & DevOps:** AWS, Docker<br>
+**Databases:** SQL, MongoDB<br>
+**Cloud & DevOps:** AWS SageMaker, Docker<br>
 **Visualization:** Matplotlib, Seaborn, Plotly, Power BI<br>
 
 ---
