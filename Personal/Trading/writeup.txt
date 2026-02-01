@@ -1,0 +1,78 @@
+TRADING REPO WRITE-UP
+====================
+
+Goal
+----
+A low-touch, robust trading system that can run in the background, be monitored remotely, and scale
+from research -> paper-live -> live -> (eventually) copy-trading, with strong risk guardrails.
+
+Repository Structure
+--------------------
+engine/   : reusable building blocks (data, signals, features, backtests, risk, live runner)
+scripts/  : command-line entry points for common workflows (fetch, backtest, walkforward, audits, paper-live)
+
+ACTIVE FILES (current)
+----------------------
+engine/data.py
+  - Loads/saves parquet, fetches OHLCV from exchange (ccxt). Source of raw data.
+
+engine/signals.py
+  - Signal generation (e.g., moving-average signal), realized volatility, vol-target sizing.
+
+engine/features.py
+  - Base feature builder classes (FeatureBuilder, FeatureSet).
+
+engine/features_candles.py
+  - CandleFeatureBuilder: builds candle-derived features (ret, rv, rv_z, trend, chop).
+  - Used by RegimeEngine.
+
+engine/regime.py
+  - RegimeEngine: maps features -> regime labels + risk_multiplier.
+
+engine/backtest.py
+  - backtest_single_asset: applies positions + costs -> equity + returns.
+
+engine/metrics.py
+  - summary_stats: Sharpe, drawdown, total return, etc.
+
+engine/portfolio.py
+  - PortfolioGuardrails: stateful risk controls (drawdown throttle, daily loss kill-switch),
+    plus position hygiene (deadband, smoothing, turnover cap).
+
+scripts/fetch_data.py
+  - Fetches historical OHLCV and saves to data/raw/*.parquet.
+
+scripts/run_backtest.py
+  - Runs a single backtest using chosen parameters and outputs plots/CSV.
+
+scripts/walkforward.py
+  - Walk-forward optimization and OOS chaining. Produces:
+    - data/processed/walkforward_oos.csv
+    - data/processed/walkforward_param_picks.csv
+
+scripts/alpha_audit.py
+  - Validity checks for “is this likely real alpha?”
+  - Cost-stress + PnL concentration + bootstrap Sharpe CI.
+
+scripts/paper_live.py
+  - Paper-live runner: loads latest data, computes target position, applies guardrails,
+    logs to data/live/paper_log.csv and writes data/live/status.json.
+
+ICED / OPTIONAL (keep if you still use, else delete)
+----------------------------------------------------
+(any plotting-only scripts / notebooks that do not feed into the pipeline)
+- Regime 3D plotting scripts:
+  - Useful for exploration, not required for trading. Safe to ice.
+
+FUTURE (planned but not required yet)
+-------------------------------------
+engine/live/runner.py
+  - Live execution loop: connect to exchange, place orders, handle retries and fills.
+
+engine/execution.py
+  - Abstraction for order placement (paper vs real), slippage models, order sizing.
+
+Notes
+-----
+- Ensure engine/__init__.py and scripts/__init__.py exist for python -m scripts.* execution.
+- Python 3.9 compatibility: avoid type unions like float | None; use Optional[float].

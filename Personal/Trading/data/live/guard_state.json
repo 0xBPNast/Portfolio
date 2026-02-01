@@ -1,0 +1,20 @@
+{
+  "cfg": {
+    "max_leverage": 2.0,
+    "rebalance_deadband": 0.02,
+    "smooth_alpha": 0.35,
+    "max_pos_change_per_bar": 0.25,
+    "dd_half_risk": 0.1,
+    "dd_stop": 0.2,
+    "daily_loss_limit": 0.03,
+    "resume_dd": 0.12
+  },
+  "state": {
+    "peak_equity": 1000000.0,
+    "day_start_equity": 1000000.0,
+    "day_key": "2026-01-31",
+    "halted": false,
+    "last_pos": 0.0,
+    "last_target": 0.0
+  }
+}

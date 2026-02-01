@@ -1,0 +1,2 @@
+timestamp,close,ret,equity,target_pos,final_pos,halted,drawdown,daily_loss,risk_scalar
+2026-01-31 08:00:00+00:00,83236.33,-0.003716240033581175,1000000.0,0.0,0.0,0,0.0,0.0,1.0

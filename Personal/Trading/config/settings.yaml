@@ -1,0 +1,16 @@
+symbol: "BTC/USDT"
+timeframe: "1h"
+
+strategy:
+  fast_ma: 50
+  slow_ma: 200
+  vol_lookback: 48
+  target_vol: 0.008
+  max_leverage: 2.0
+
+costs:
+  fee_bps: 4.0
+  slippage_bps: 2.0
+
+backtest:
+  initial_equity: 1000000
